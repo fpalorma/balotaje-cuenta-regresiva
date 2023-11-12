@@ -42,6 +42,9 @@ img{
         justify-content: center;
 
     }
+    img{
+        width: 80vw;
+    }
     .texto-contenedor{
         display: flex;
         flex-direction: column;
