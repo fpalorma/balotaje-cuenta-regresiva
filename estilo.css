@@ -8,7 +8,9 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,236,252,1) 100
 }
 
 img{
-    width:800px
+    width:40vw;
+    margin: 20px 20px 20px 20px;
+    
     
 }
 
@@ -16,4 +18,50 @@ img{
     display:flex;
     justify-content: space-around;
     margin-right:20px;
+}
+.contenedor{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.deadline-format{
+    background-color: darkblue;
+    color:whitesmoke;
+    padding:10px;
+    text-align: center;
+    margin:10px
+}
+
+@media (max-width:800px){
+    .contenedor{
+        grid-template-columns: 1fr;
+    }
+    .img-contenedor{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .texto-contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+h1{
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+    margin:20px 20px 10px 20px
+}
+h3{
+    font-size:1.5rem;
+    margin:20px 20px 10px 20px
 }
