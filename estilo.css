@@ -1,0 +1,19 @@
+* {
+    margin:0;
+    padding: 0;
+}
+body{
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,236,252,1) 100%);
+}
+
+img{
+    width:800px
+    
+}
+
+.deadline{
+    display:flex;
+    justify-content: space-around;
+    margin-right:20px;
+}
